@@ -1,4 +1,4 @@
-# How to add Komodo asset chain to Agama Desktop?
+# Easy steps to add Komodo asset chain to Agama Desktop?
 
 The Agama desktop code comprises of two parts. Backend and UI. This assetchain adding guide will cover both. All the files needs changing are linked.
 
