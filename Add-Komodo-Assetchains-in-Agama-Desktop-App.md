@@ -1,6 +1,6 @@
 # Easy steps to add Komodo asset chain to Agama Desktop
 
-The Agama desktop code comprises of two parts. Backend and UI. This assetchain adding guide will cover both. All the files needs changing are linked.
+The Agama desktop code comprises of two parts. Backend and UI. This assetchain adding guide will cover both. All the files needs changing are linked. If you want to add Bitcoin compatible coins follow [this guide](https://github.com/KomodoPlatform/Agama/wiki/Add-a-Bitcoin-Compatible-coin-to-Agama-Desktop).
 
 ### Backend
 - Add a default asset chain port [`https://github.com/KomodoPlatform/Agama/blob/v0.25/routes/ports.js`](https://github.com/KomodoPlatform/Agama/blob/v0.25/routes/ports.js)
