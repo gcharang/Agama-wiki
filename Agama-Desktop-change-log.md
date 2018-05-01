@@ -1,4 +1,4 @@
-v0.36
+v0.2.36
 - kv spv
 - native -gen param
 - spv watchonly address mode ui flag
@@ -8,7 +8,7 @@ v0.36
 - tools -> get multiple kmd balances
 - experimental support for custom asset chains, staking and mining
 
-v0.35
+v0.2.35
 - updated electrum servers
 - spv 0 conf timestamp fix
 - new coin bcbc
@@ -17,22 +17,22 @@ v0.35
 - seed storage pin rename/delete
 - disable nn voting ui
 
-v0.34
+v0.2.34
 - load gui content from file instead of a remote url
 - better seed gen (bip39)
 - updated btc, dgb, zec spv servers
 
-v0.33
+v0.2.33
 - seed storage related bug fixes
 - komodod update
 
-v0.32
+v0.2.32
 - bntn, eql asset chains
 - custom seed entropy check
 - send form multisig address validation bug fix
 - encrypted seed storage
 
-v0.31
+v0.2.31
 - enabled mesh asset chain back
 - login form native shortcut 32 bit check
 - z key import
@@ -42,69 +42,69 @@ v0.31
 - spv updated sng electrum servers
 - oot ac native fix
 
-v0.30c
+v0.2.30c
 - spv sng coin
 - spv btc fees local fallback, atomicexplorer.com url fixes
 - security: rce, session token fixes
 - added oot asset chain
 
-v0.30b
+v0.2.30b
 - elections spv sendmany fix
 
-v0.30a
+v0.2.30a
 - minor elections modal fixes
 - fixed vote2018 ac, added ninja ac
 - new spv coin dnr
 - a few minor bug fixes related to login and spv connections
 
-v0.29c
+v0.2.29c
 - removed fiat asset chains
 - interest claim modal kmd fee info
 - spv empty login fix
 
-v0.29b
+v0.2.29b
 - seed trim login fix
 - spv send form will feature fees/totals for all coins and kmd interest to be claimed if applicable
 
-v0.29a
+v0.2.29a
 - spv caching
 - ltc tx fee bump to 0.001 (100000 sats)
 
-v0.28c
+v0.2.28c
 - better spv tx history categorization
 - terminate rogue electrum connections
 
-v0.28b
+v0.2.28b
 - btc spv
 - extended explorers list
 
-v0.28a
+v0.2.28a
 - app menu debug -> reset settings item
 - wif 2 wif fix
 - pub address validation
 - spv beer, pizza, vote, qtum, btx, btcz, hodlc
 
-v0.27d
+v0.2.27d
 - voting
 - better decode error wording
 - watchonly spv
 
-v0.27c
+v0.2.27c
 - tools merge/split utxo
 - audo's create seed verification method
 - fiat balance
 
-v0.27b
+v0.2.27b
 - btch icon change
 - pizza, beer test coins
 
-v0.27a
+v0.2.27a
 - login/create seed qr code scan/gen
 - native send subtract fee fix
 - spv send "all balance", "send to self" shortcut buttons
 - new section "tools", a bunch of handy functions to do wif to wif / seed to wif conversion, get utxo list etc
 
-v0.26c-d
+v0.2.26c-d
 - btch spv, mgv spv
 - better tooltips
 - spv broadcast error info
@@ -115,7 +115,7 @@ v0.26c-d
 - spv export keys eror fix
 - start screen changed
 
-v0.26b
+v0.2.26b
 - kmd logo update
 - coin tile badge pos change
 - coin tile stop action render cond fix
@@ -126,7 +126,7 @@ v0.26b
 - 2 more spv coins XMY and ZCL
 - spv send now should include the exact error message if "unable to broadcast"
 
-v0.26a
+v0.2.26a
 - coin tile actions refactored as a dropdown menu
 - receive coin validate address option in address menu
 - rpc to cli passphru
@@ -140,7 +140,7 @@ v.025f-j
 - top right menu icon style change
 - settings support tab moved to a separate section
 
-v0.25d-e
+v0.2.25d-e
 - settings app info daemon ports list
 - native wallet info network data
 - add coin modal spv mode desciption
@@ -148,7 +148,7 @@ v0.25d-e
 - close modals on esc or overlay click
 - spv uncompressed wif key support
 
-v0.25a-c
+v0.2.25a-c
 - settings bip39 key search, target audience ledger wallet users
 - 32 bit os detect, fallsback to spv mode only
 - spv is enabled by default
@@ -167,24 +167,24 @@ v0.25a-c
 - dump z address key fix
 - hide address export in spv
 
-v0.24g
+v0.2.24g
 - claim interest button address check
 
-v0.24f
+v0.2.24f
 - native claim interest success toaster address fix
 - spv claim interest auto close on success
 - spv claim interest fee subtract fix
 - native import key modal wif visibility toggle
 - spv logout / remove coin cache cleanup fix
 
-v0.24e
+v0.2.24e
 - jumblr pause/resume
 - send form txid copy btn, link to explorer
 - claim interest modal native address dropdown, spv
 - tx history / balance refresh spinner
 - claim interest not fully synced native coin warning sign
 
-v0.24d
+v0.2.24d
 - agama modes explained on startup window
 - receive ismine:false toggle
 - send / claim interest balance calc fix, discard any ismine:false utxo
@@ -193,7 +193,7 @@ v0.24d
 - settings clear komodo/chain data folder
 - catch coind exit
 
-v0.24c
+v0.2.24c
 - spv random server select on add coin
 - spv listtransactions zeroconf timestamp fix
 - improved coind down modal, less intrusive
@@ -202,7 +202,7 @@ v0.24c
 - receive coin wif key copy button
 - disable missing zcash params check if spv only coins
 
-v0.24a/b
+v0.2.24a/b
 - mnz and kmd spv should work now
 - spv wif login fix
 - spv seed login fix, affected seeds containing non-latin chars
