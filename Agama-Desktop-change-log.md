@@ -1,3 +1,27 @@
+v0.36
+- kv spv
+- native -gen param
+- spv watchonly address mode ui flag
+- interest calc edge case fix
+- improved seed encrypt, thanks to luke
+- new ac chain
+- tools -> get multiple kmd balances
+- experimental support for custom asset chains, staking and mining
+
+v0.35
+- updated electrum servers
+- spv 0 conf timestamp fix
+- new coin bcbc
+- new asset chain glxt
+- spv shielded tx decoding fix
+- seed storage pin rename/delete
+- disable nn voting ui
+
+v0.34
+- load gui content from file instead of a remote url
+- better seed gen (bip39)
+- updated btc, dgb, zec spv servers
+
 v0.33
 - seed storage related bug fixes
 - komodod update
