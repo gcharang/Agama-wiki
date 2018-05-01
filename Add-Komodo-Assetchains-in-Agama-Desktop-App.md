@@ -10,7 +10,6 @@ The Agama desktop code comprises of two parts. Backend and UI. This assetchain a
 
 ### UI
 - Add asset chain entries to this file https://github.com/KomodoPlatform/EasyDEX-GUI/blob/dev/react/src/components/addcoin/payload.js#L45
-- If you have your own seed server ip add it here https://github.com/KomodoPlatform/EasyDEX-GUI/blob/dev/react/src/actions/actions/addCoin.js#L156
 - Add an asset chain to UI coin helper file [`https://github.com/KomodoPlatform/EasyDEX-GUI/blob/dev/react/src/util/coinHelper.js#L9`](https://github.com/KomodoPlatform/EasyDEX-GUI/blob/dev/react/src/util/coinHelper.js#L9)
 - Add an asset chain to Add Coin component render [`https://github.com/KomodoPlatform/EasyDEX-GUI/blob/dev/react/src/components/addcoin/addcoinOptionsAC.js#L28`](https://github.com/KomodoPlatform/EasyDEX-GUI/blob/dev/react/src/components/addcoin/addcoinOptionsAC.js#L28)
 - Drop a 100 x 100 px (better 200 x 200 px) logo into [`https://github.com/KomodoPlatform/EasyDEX-GUI/tree/dev/react/src/assets/images/cryptologo`](https://github.com/KomodoPlatform/EasyDEX-GUI/tree/dev/react/src/assets/images/cryptologo)
