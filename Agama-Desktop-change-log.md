@@ -1,3 +1,7 @@
+v0.2.37
+- arg electrum port fix
+- custom ac genproclimit dropdown
+
 v0.2.36
 - kv spv
 - native -gen param
