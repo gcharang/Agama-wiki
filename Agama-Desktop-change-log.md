@@ -1,3 +1,15 @@
+v0.2.38
+- spv max vin parse settings
+- login quick menu click outside fix, remove spv coins option
+- update glxt seed node ip
+- partial responsive layout support
+- added kv explorer link
+- rename placeholders interest -> rewards, new interest rules past height > 1m
+- spv detect clock diff
+- spv local cache
+- spv proxy
+- agt-186, tools multi balance proper fallback/error handling
+
 v0.2.37
 - arg electrum port fix
 - custom ac genproclimit dropdown
