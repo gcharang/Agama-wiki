@@ -1,3 +1,11 @@
+v0.2.39
+- new spv coins game and fujicoin (fjc)
+- new asset chain prlpay
+- spv socket timeout settings option
+- sensitive data blur toggle
+- tools split/merge utxo wif support
+- kv lite
+
 v0.2.38
 - spv max vin parse settings
 - login quick menu click outside fix, remove spv coins option
