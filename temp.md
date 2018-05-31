@@ -1,0 +1,1 @@
+nogui coins=kmd,chips userpass="1234" seed="some passphrase"
