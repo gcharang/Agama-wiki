@@ -4,17 +4,15 @@ The Agama desktop code comprises of two parts. Backend and UI. This assetchain a
 
 ### Backend
 - Add a default asset chain port [`https://github.com/KomodoPlatform/Agama/blob/dev/routes/ports.js`](https://github.com/KomodoPlatform/Agama/blob/dev/routes/ports.js)
-- Add an electrum server for your asset (optional) [`https://github.com/KomodoPlatform/Agama/blob/dev/routes/electrumjs/electrumServers.js`](https://github.com/KomodoPlatform/Agama/blob/dev/routes/electrumjs/electrumServers.js)
-- Add an asset chain to the list of kmd assets [`https://github.com/KomodoPlatform/Agama/blob/dev/routes/shepherd/electrum/network.js#L6`](https://github.com/KomodoPlatform/Agama/blob/dev/routes/shepherd/electrum/network.js#L6)
+- Add an electrum server for your asset (optional) [`https://github.com/pbca26/agama-wallet-lib/blob/dev/src/electrum-servers.js#L1`](https://github.com/pbca26/agama-wallet-lib/blob/dev/src/electrum-servers.js#L1)
+- Add an asset chain to the list of kmd assets [`https://github.com/pbca26/agama-wallet-lib/blob/dev/src/coin-helpers.js#L1`](https://github.com/pbca26/agama-wallet-lib/blob/dev/src/coin-helpers.js#L1)
 - Submit a PR
 
 ### UI
-- Add asset chain entries to this file https://github.com/KomodoPlatform/EasyDEX-GUI/blob/dev/react/src/components/addcoin/payload.js#L45
-- Add an asset chain to UI coin helper file [`https://github.com/KomodoPlatform/EasyDEX-GUI/blob/dev/react/src/util/coinHelper.js#L9`](https://github.com/KomodoPlatform/EasyDEX-GUI/blob/dev/react/src/util/coinHelper.js#L9)
-- Add an asset chain to Add Coin component render [`https://github.com/KomodoPlatform/EasyDEX-GUI/blob/dev/react/src/components/addcoin/addcoinOptionsAC.js#L28`](https://github.com/KomodoPlatform/EasyDEX-GUI/blob/dev/react/src/components/addcoin/addcoinOptionsAC.js#L28)
+- Add asset chain entries to this file [`https://github.com/KomodoPlatform/EasyDEX-GUI/blob/dev/react/src/components/addcoin/payload.js#L45`](https://github.com/KomodoPlatform/EasyDEX-GUI/blob/dev/react/src/components/addcoin/payload.js#L45)
 - Drop a 100 x 100 px (better 200 x 200 px) logo into [`https://github.com/KomodoPlatform/EasyDEX-GUI/tree/dev/react/src/assets/images/cryptologo`](https://github.com/KomodoPlatform/EasyDEX-GUI/tree/dev/react/src/assets/images/cryptologo)
-- Add an asset chain explorer [`https://github.com/KomodoPlatform/EasyDEX-GUI/blob/dev/react/src/util/explorerList.js#L4`](https://github.com/KomodoPlatform/EasyDEX-GUI/blob/dev/react/src/util/explorerList.js#L4)
-- Add asset chain name to EN translation file https://github.com/KomodoPlatform/EasyDEX-GUI/blob/dev/react/src/translate/en.js#L828
+- Add an asset chain explorer [`https://github.com/pbca26/agama-wallet-lib/blob/dev/src/coin-helpers.js#L51`](https://github.com/pbca26/agama-wallet-lib/blob/dev/src/coin-helpers.js#L51)
+- Add asset chain name to EN translation file [`https://github.com/KomodoPlatform/EasyDEX-GUI/blob/dev/react/src/translate/en.js`] (https://github.com/KomodoPlatform/EasyDEX-GUI/blob/dev/react/src/translate/en.js), look for "ASSETCHAINS".
 - Submit a PR
 
 Please make sure an asset chain is working in Agama before making a commit. Pull requests containing partial information or not working assets/servers will remain unmerged until all requirements are fulfilled.
