@@ -13,6 +13,6 @@ The Agama desktop code comprises of two parts. Backend and UI. This assetchain a
 - Drop a 100 x 100 px (better 200 x 200 px) logo into [`https://github.com/KomodoPlatform/EasyDEX-GUI/tree/dev/react/src/assets/images/cryptologo`](https://github.com/KomodoPlatform/EasyDEX-GUI/tree/dev/react/src/assets/images/cryptologo)
 - Add an asset chain explorer [`https://github.com/pbca26/agama-wallet-lib/blob/dev/src/coin-helpers.js#L51`](https://github.com/pbca26/agama-wallet-lib/blob/dev/src/coin-helpers.js#L51)
 - Add asset chain name to EN translation file [`https://github.com/KomodoPlatform/EasyDEX-GUI/blob/dev/react/src/translate/en.js`] (https://github.com/KomodoPlatform/EasyDEX-GUI/blob/dev/react/src/translate/en.js), look for "ASSETCHAINS".
-- Submit a PR
+- Submit a PR to dev branch on each repo
 
 Please make sure an asset chain is working in Agama before making a commit. Pull requests containing partial information or not working assets/servers will remain unmerged until all requirements are fulfilled.
