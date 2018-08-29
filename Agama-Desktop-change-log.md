@@ -1,6 +1,6 @@
 v0.2.41d
 - updated komodo binary
-- updated electorn version
+- updated electron version
 - security updates
 
 v0.2.41
