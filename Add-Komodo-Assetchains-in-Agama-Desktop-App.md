@@ -10,7 +10,7 @@ The Agama desktop code comprises of two parts. Backend and UI. This assetchain a
 - Submit a PR
 
 ### Asset chains with block rewards (optional)
-- Add `genproclimit: true` property to allow mining with multiple CPU threads. Default value is 0 in case genproclimit option is not explicitly specified.
+- Add `genproclimit: true` property to allow mining with multiple CPU threads. Default value is 0 (e.g. -gen -genproclimit=0) in case genproclimit option is not explicitly specified.
 [`https://github.com/KomodoPlatform/Agama/blob/dev/routes/chainParams.js`](https://github.com/KomodoPlatform/Agama/blob/dev/routes/chainParams.js)
 
 ### UI
