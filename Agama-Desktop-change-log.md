@@ -1,3 +1,8 @@
+v0.2.41d
+- updated komodo binary
+- updated electron version
+- security updates
+
 v0.2.41
 - updated electrum servers list
 - new asset chain zilla
