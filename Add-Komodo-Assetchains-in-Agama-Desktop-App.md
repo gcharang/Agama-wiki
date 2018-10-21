@@ -5,6 +5,7 @@ The Agama desktop code comprises of two parts. Backend and UI. This assetchain a
 ### Backend
 - Add a default asset chain port [`https://github.com/KomodoPlatform/Agama/blob/dev/routes/ports.js`](https://github.com/KomodoPlatform/Agama/blob/dev/routes/ports.js)
 - Add an electrum server for your asset (optional) [`https://github.com/pbca26/agama-wallet-lib/blob/dev/src/electrum-servers.js#L1`](https://github.com/pbca26/agama-wallet-lib/blob/dev/src/electrum-servers.js#L1)
+- Add a fixed fee for your asset (required if you submit electrum servers list) [`https://github.com/pbca26/agama-wallet-lib/blob/dev/src/fees.js#L1`](https://github.com/pbca26/agama-wallet-lib/blob/dev/src/fees.js#L1)
 - Add an asset chain to the list of kmd assets [`https://github.com/pbca26/agama-wallet-lib/blob/dev/src/coin-helpers.js#L1`](https://github.com/pbca26/agama-wallet-lib/blob/dev/src/coin-helpers.js#L1)
 - Add asset chain params to this file [`https://github.com/KomodoPlatform/Agama/blob/dev/routes/chainParams.js`](https://github.com/KomodoPlatform/Agama/blob/dev/routes/chainParams.js)
 - Submit a PR
