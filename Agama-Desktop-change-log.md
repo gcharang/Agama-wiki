@@ -1,3 +1,14 @@
+v0.2.43
+- updated komodo binary
+- various fixes (SPV, interest)
+- added KMDice
+- added Dionpay
+
+v0.2.42
+- updated komodo binary
+- various fixes
+- added PIRATE
+
 v0.2.41d
 - updated komodo binary
 - updated electron version
