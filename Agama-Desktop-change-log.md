@@ -1,6 +1,6 @@
 v0.2.43
 - updated komodo binary
-- various fixes (SPV, interest)
+- various fixes (SPV, reward)
 - added KMDice
 - added Dionpay
 
