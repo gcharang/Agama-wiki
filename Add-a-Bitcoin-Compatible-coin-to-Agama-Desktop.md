@@ -9,7 +9,7 @@ We already have guide explaining [how to add Komodo assetchians in Agama Desktop
 
 ### UI
 - Drop a 100 x 100 px (better 200 x 200 px) logo into [`https://github.com/KomodoPlatform/EasyDEX-GUI/tree/dev/react/src/assets/images/cryptologo`](https://github.com/KomodoPlatform/EasyDEX-GUI/tree/dev/react/src/assets/images/cryptologo)
-- Add your coin name to EN translation file [`https://github.com/KomodoPlatform/EasyDEX-GUI/blob/dev/react/src/translate/en.js`] (https://github.com/KomodoPlatform/EasyDEX-GUI/blob/dev/react/src/translate/en.js), look for "CRYPTO".
+- Add your coin name to EN translation file [`https://github.com/KomodoPlatform/EasyDEX-GUI/blob/dev/react/src/translate/en.js`](https://github.com/KomodoPlatform/EasyDEX-GUI/blob/dev/react/src/translate/en.js), look for "CRYPTO".
 - Submit a PR to dev branch on each repo
 
 Please make sure an asset chain is working in Agama before making a commit. Pull requests containing partial information or not working assets/servers will remain unmerged until all requirements are fulfilled.
