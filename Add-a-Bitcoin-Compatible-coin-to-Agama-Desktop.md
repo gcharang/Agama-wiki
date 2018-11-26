@@ -23,6 +23,8 @@ We already have guide explaining [how to add Komodo assetchians in Agama Desktop
 #### Note: you need to convert pubKeyHash (PUBKEY_ADDRESS), scriptHash (SCRIPT_ADDRESS) and wif (SECRET_KEY) decimal values to hexadecimal representation. Use this website to do conversion https://www.binaryhexconverter.com/decimal-to-hex-converter.
 `PUBKEY_ADDRESS conversion example (KMD): 60 dec -> 0x3c hex`
 
+In case if SECRET_KEY consists of two decimal numbers (e.g. 63 + 128) sum them up and use the result (192) on the converter website listed above.
+
 If you can't find chainparams.cpp in your code base try checking one of these files https://docs.komodoplatform.com/barterDEX/get-listed-barterDEX.html#search-for-the-information-on-github.
 
 Please make sure an asset chain is working in Agama before making a commit. Pull requests containing partial information or not working assets/servers will remain unmerged until all requirements are fulfilled.
