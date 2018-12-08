@@ -1,3 +1,10 @@
+v0.3.0
+- Latest Komodo binary ([release notes](https://github.com/KomodoPlatform/komodo/blob/master/doc/release-notes/release-notes-0.3.0.md))
+- Sapling ready
+- Offline Signing
+- CLI display bug fixed
+- ETH & ERC20 token support
+
 v0.2.43
 - updated komodo binary
 - various fixes (SPV, reward)
