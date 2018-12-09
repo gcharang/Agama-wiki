@@ -3,7 +3,10 @@ v0.3.0
 - Sapling ready
 - Offline Signing
 - CLI display bug fixed
-- ETH & ERC20 token support
+- ETH & ERC20 token support ([list](https://komodoplatform.com/komodo-integrates-eth-erc20-tokens-to-agama-wallet/))
+- Coin pricing update
+- Added
+- Removed BCBC and ARG
 
 v0.2.43
 - updated komodo binary
