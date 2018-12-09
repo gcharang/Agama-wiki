@@ -1,10 +1,11 @@
 v0.3.0
+- Major Update
 - Latest Komodo binary ([release notes](https://github.com/KomodoPlatform/komodo/blob/master/doc/release-notes/release-notes-0.3.0.md))
 - Sapling ready
 - Offline Signing ([Guide](https://support.komodoplatform.com/en/support/solutions/articles/29000026631-sign-transactions-offline-and-broadcast-online-using-agama))
 - CLI display bug fixed
-- ETH & ERC20 token support ([list](https://komodoplatform.com/komodo-integrates-eth-erc20-tokens-to-agama-wallet/))
 - Coin pricing update
+- ETH & ERC20 token support ([list](https://komodoplatform.com/komodo-integrates-eth-erc20-tokens-to-agama-wallet/))
 - Added SUQA, Bitzec
 - Removed BCBC and ARG
 
