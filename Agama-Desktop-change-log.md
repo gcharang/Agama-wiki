@@ -5,7 +5,7 @@ v0.3.0
 - CLI display bug fixed
 - ETH & ERC20 token support ([list](https://komodoplatform.com/komodo-integrates-eth-erc20-tokens-to-agama-wallet/))
 - Coin pricing update
-- Added
+- Added SUQA, Bitzec
 - Removed BCBC and ARG
 
 v0.2.43
