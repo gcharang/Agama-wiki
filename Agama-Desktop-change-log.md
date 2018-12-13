@@ -2,6 +2,7 @@ v0.3.1
 - Latest Komodo binary 0.3.1
 - Offline Signing improvements
 - Various bug fixes and imporovements
+- ZILLA params updated to not to activate Sapling
 
 v0.3.0
 - Major Update
