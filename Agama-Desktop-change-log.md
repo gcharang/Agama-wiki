@@ -1,3 +1,8 @@
+v0.3.1
+- Latest Komodo binary 0.3.1
+- Offline Signing improvements
+- Various bug fixes and imporovements
+
 v0.3.0
 - Major Update
 - Latest Komodo binary ([release notes](https://github.com/KomodoPlatform/komodo/blob/master/doc/release-notes/release-notes-0.3.0.md))
