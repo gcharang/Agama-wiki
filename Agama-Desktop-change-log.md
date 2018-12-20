@@ -1,3 +1,7 @@
+v0.3.2
+- Latest Komodo binary with `z_mergetoaddress` fix
+- Other minor Agama improvements
+
 v0.3.1
 - Latest Komodo binary 0.3.1
 - Offline Signing improvements
