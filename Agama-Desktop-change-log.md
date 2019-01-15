@@ -1,3 +1,11 @@
+v0.3.4
+- Latest Komodo binary 0.3.3b
+- Shortcut start button fix for Pirate (ARRR)
+- PGT icon, badge color fix
+- Fix for tx history post lock/logout bug
+- Minor improvements in tools offline tx sign
+- Tools multisig address generation, tx create/co-sign
+
 v0.3.2
 - Latest Komodo binary with `z_mergetoaddress` fix
 - Other minor Agama improvements
