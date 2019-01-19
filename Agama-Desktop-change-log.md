@@ -305,9 +305,6 @@ v0.2.24a/b
 - coind detached mode
 - coind down modal configurable threshold, workaround for false positives
 
-v0.2.0.22-24a-beta
-wif login support
-
 v0.2.0.22-23a-beta
 - fixed activating best chain progress update
 - prevent running two agama instances
