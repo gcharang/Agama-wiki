@@ -1,3 +1,17 @@
+v0.3.3
+- Latest Komodo binary 0.3.3b from beta branch
+- Display dPoW Confirmations in Lite Mode
+- Display `rawconfirmations` when hovering on confirmations numbers for Native and Lite mode
+- Display dPoW Confirmation badge for Native and Lite mode
+- Lite mode tx confirmation display now faster than earlier version
+- Import Sapling privkey fix using Import Key button, earlier version had error while importing sapling key
+- Shortcut start button fix for Pirate (ARRR)
+- PGT icon, badge color fix
+- Fix for tx history post lock/logout bug
+- Minor improvements in tools offline tx sign
+- Tools multisig address generation, tx create/co-sign
+- Added new coin LUMBER
+
 v0.3.2
 - Latest Komodo binary with `z_mergetoaddress` fix
 - Other minor Agama improvements
@@ -296,3 +310,74 @@ v0.2.24a/b
 - remove coin
 - coind detached mode
 - coind down modal configurable threshold, workaround for false positives
+
+v0.2.0.22-23a-beta
+- fixed activating best chain progress update
+- prevent running two agama instances
+- cli passphru fix
+- fixed logout bug
+- minor placeholders fixes
+- hide address dropdown if wallet has only one address
+- komodod crash report modal
+- values clipping
+- add coin multi ui reflow fix
+- reset app setting to default
+- manual balance / transactions list refresh
+- quick access dropdown on login to open settings / about / sync only modals
+- qr code generator / scan
+- invoice generator
+- basilisk send form reset fix
+- added native wallet info button
+- added coqui assetchain
+- jumblr
+- zcashparams folder check
+- claim interest modal
+- claim interest button on dashboard
+- renewed transactions history look
+- prevent app from closing while komodod is still loading/processing data
+- send form validation
+- coin daemon port check on addcoin
+- updated application settings
+- komodo datadir
+- windows bins path fix
+- slow windows sync workaround
+- transactions details sorting fix
+- configurable komodod graceful quit timeout param
+- zcash params fetch modal
+- mnz asset chain
+- deprecated full and basilisk modes
+- updated transaction details modal
+- new spv mode
+- mainstream add coin shortcuts dropdown
+- import seed / wif key modal
+- reduced resourse consumption
+
+v0.2.0.21a-beta
+- fixed transaction info modal bug
+- full mode is disabled on windows
+- fixed BTC add coin bug
+- updated login form
+
+v0.2.0.2a-beta
+- fixed native t to t bug that led to interest loss
+- added pending request(s) spinner
+- added missing native z_balance api call for z-addresses
+- fixed native t to z address send bug
+- added cli settings section
+- disabled initial basilisk connection process
+- minor UI reorder change
+- limit http stack history to 150 calls of each type
+- sort http stack history desc
+- swapped gettotalbalance interest with getinfo interest
+- extended settings / export keys ui
+- added error message if coin is already running in another mode
+- added explicit "new address generated" message
+- added cli / rpc passphru
+- seed type check
+- seed extra space(s) check
+- custom seed option
+- copy seed button
+- native only mode
+- app update
+- added cli route
+- rpc passphru
