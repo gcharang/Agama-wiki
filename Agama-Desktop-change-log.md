@@ -1,3 +1,7 @@
+v0.3.4
+- Source code optimization
+- Minor improvements and fixes
+
 v0.3.3
 - Latest Komodo binary 0.3.3b from beta branch
 - Display dPoW Confirmations in Lite Mode
