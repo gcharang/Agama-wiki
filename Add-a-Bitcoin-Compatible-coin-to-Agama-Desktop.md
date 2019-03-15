@@ -5,13 +5,13 @@ We already have guide explaining [how to add Komodo assetchians in Agama Desktop
 - Add an electrum server [`https://github.com/pbca26/agama-wallet-lib/blob/dev/src/electrum-servers.js#L1`](https://github.com/pbca26/agama-wallet-lib/blob/dev/src/electrum-servers.js#L1)
 - Add a safe fixed fee (per transaction) [`https://github.com/pbca26/agama-wallet-lib/blob/dev/src/fees.js#L1`](https://github.com/pbca26/agama-wallet-lib/blob/dev/src/fees.js#L1).
 - Add an explorer [`https://github.com/pbca26/agama-wallet-lib/blob/dev/src/coin-helpers.js#L62`](https://github.com/pbca26/agama-wallet-lib/blob/dev/src/coin-helpers.js#L62)
-- Submit a PR
+- Submit a PR, use dev branch!
 
 ### UI
 - Drop a 100 x 100 px (better 200 x 200 px) logo into [`https://github.com/KomodoPlatform/EasyDEX-GUI/tree/dev/react/src/assets/images/cryptologo/btc`](https://github.com/KomodoPlatform/EasyDEX-GUI/tree/dev/react/src/assets/images/cryptologo/btc)
 - Add your coin name to coins translation file [`https://github.com/KomodoPlatform/EasyDEX-GUI/blob/dev/react/src/translate/coins.js`](https://github.com/KomodoPlatform/EasyDEX-GUI/blob/dev/react/src/translate/coins.js), look for "CRYPTO".
 - Add your coin to coins helper file [`https://github.com/KomodoPlatform/EasyDEX-GUI/blob/dev/react/src/util/coinHelper.js#L300`](https://github.com/KomodoPlatform/EasyDEX-GUI/blob/dev/react/src/util/coinHelper.js#L300).
-- Submit a PR to dev branch on each repo
+- Submit a PR, use dev branch!
 
 ### How to get network params
 - pubKeyHash: https://github.com/KomodoPlatform/komodo/blob/fbb3b3e9a0c432173a8d733ebbcbd7b0324d58df/src/chainparams.cpp#L169
