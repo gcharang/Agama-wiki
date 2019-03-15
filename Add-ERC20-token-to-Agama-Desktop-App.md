@@ -9,7 +9,7 @@ The Agama desktop code comprises of two parts. Backend and UI. This ERC20 adding
 
 ### UI
 - Drop a 100 x 100 px (better 200 x 200 px) logo into [`https://github.com/KomodoPlatform/EasyDEX-GUI/tree/dev/react/src/assets/images/cryptologo/eth`](https://github.com/KomodoPlatform/EasyDEX-GUI/tree/dev/react/src/assets/images/cryptologo/eth)
-- Add asset chain name to coins translation file [`https://github.com/KomodoPlatform/EasyDEX-GUI/blob/dev/react/src/translate/coins.js#L183`] (https://github.com/KomodoPlatform/EasyDEX-GUI/blob/dev/react/src/translate/coins.js#L183), look for "CRYPTO".
+- Add ERC20 token name to coins translation file [`https://github.com/KomodoPlatform/EasyDEX-GUI/blob/dev/react/src/translate/coins.js#L183`](https://github.com/KomodoPlatform/EasyDEX-GUI/blob/dev/react/src/translate/coins.js#L183), look for "CRYPTO".
 - Submit a PR to dev branch on each repo
 
 ### How to get required contract info
