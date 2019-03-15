@@ -27,4 +27,4 @@ In case if SECRET_KEY consists of two decimal numbers (e.g. 63 + 128) sum them u
 
 If you can't find chainparams.cpp in your code base try checking one of these files https://docs.komodoplatform.com/barterDEX/get-listed-barterDEX.html#search-for-the-information-on-github.
 
-Please make sure an asset chain is working in Agama before making a commit. Pull requests containing partial information or not working assets/servers will remain unmerged until all requirements are fulfilled.
+Please make sure a Bitcoin compatible coin is working in Agama before making aPR. Pull requests containing partial information or not working assets/servers will remain unmerged until all requirements are fulfilled.
