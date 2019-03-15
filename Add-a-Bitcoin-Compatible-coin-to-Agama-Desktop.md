@@ -9,7 +9,7 @@ We already have guide explaining [how to add Komodo assetchians in Agama Desktop
 
 ### UI
 - Drop a 100 x 100 px (better 200 x 200 px) logo into [`https://github.com/KomodoPlatform/EasyDEX-GUI/tree/dev/react/src/assets/images/cryptologo/btc`](https://github.com/KomodoPlatform/EasyDEX-GUI/tree/dev/react/src/assets/images/cryptologo/btc)
-- Add your coin name to coins translation file [`https://github.com/KomodoPlatform/EasyDEX-GUI/blob/dev/react/src/translate/coins.js`] (https://github.com/KomodoPlatform/EasyDEX-GUI/blob/dev/react/src/translate/coins.js), look for "CRYPTO".
+- Add your coin name to coins translation file [`https://github.com/KomodoPlatform/EasyDEX-GUI/blob/dev/react/src/translate/coins.js`](https://github.com/KomodoPlatform/EasyDEX-GUI/blob/dev/react/src/translate/coins.js), look for "CRYPTO".
 - Add your coin to coins helper file [`https://github.com/KomodoPlatform/EasyDEX-GUI/blob/dev/react/src/util/coinHelper.js#L300`](https://github.com/KomodoPlatform/EasyDEX-GUI/blob/dev/react/src/util/coinHelper.js#L300).
 - Submit a PR to dev branch on each repo
 
