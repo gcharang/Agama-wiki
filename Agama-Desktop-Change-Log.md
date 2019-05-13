@@ -5,6 +5,11 @@ v0.3.6
 - K64 logo change
 - ILN name fix and logo change
 - SPV caching fix
+- Removed GBX
+- Import key modal multi rescan fix
+- Address book z-address fix
+- Add coin modal spv kmd assets toggle
+- PIN access / local coins list file filter out disabled coins on load
 
 v0.3.5
 - Enabled Notary Elections UI
