@@ -1,3 +1,11 @@
+v0.3.6
+- Latest KMD bins based on `beta` branch
+- New seed creation and restore UI which enforces new 24 words seed to be written down
+- OUR native mode wallet start fix
+- K64 logo change
+- ILN name fix and logo change
+- SPV caching fix
+
 v0.3.5
 - Enabled Notary Elections UI
 - SPV confirmations counter fix
